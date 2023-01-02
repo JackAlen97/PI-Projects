@@ -1,0 +1,43 @@
+@media (min-width: 300px) and (max-width: 750px) {
+  ul {
+    align-items: center;
+  }
+  li {
+    align-items: center;
+  }
+}
+
+ul {
+  text-align: center;
+  display: flex;
+  position: relative;
+  top: 30px;
+  margin-left: 350px;
+  left: 0;
+  right: 0;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+#timestamp {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column-reverse;
+}
+
+#mapid {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

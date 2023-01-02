@@ -1,0 +1,22 @@
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+}
+
+.container a:hover {
+  color: rgb(71, 122, 199);
+  transition: all 0.2s;
+}
+
+.container a:link {
+  text-decoration: none;
+}
+.container a {
+  font-size: 18px;
+  color: rgb(75, 61, 61);
+}
+
+#btn {
+  border-radius: 5px;
+  border-color: rgb(106, 159, 240);
+}

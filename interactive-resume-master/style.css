@@ -1,0 +1,190 @@
+
+.firstSection {
+    color: white;
+    border-style: solid;
+
+    /* border-top-style: hidden;
+    border-right-style: solid;
+    border-bottom-style: hidden;
+    border-left-style: hidden; */
+
+    min-height:1300px;
+
+    border-width: 0px 10px 0px 0px; 
+   /* top right bottom left */
+
+
+
+    /* border-style: hidden; */
+    /* object-position: center top; */
+    /* object-position: 100px 50px; */
+    width: 340px;
+    word-wrap: break-word;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding: 55px 30px;
+    background-color: #5856d6;
+
+}
+
+.profilePicture {
+    /* border: 2px solid red; */
+    border-radius: 180px;
+  }
+
+.summary {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#name {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #5856d6;
+    padding-bottom: 40px;
+
+    
+}
+
+.userName{
+    padding-top: 60px;
+    font-size: 4rem;
+}
+
+.secondSection {
+    padding-left: 400px;
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+}
+
+.date {
+    font-weight: 100;
+}
+
+.font-weight-bold {
+    font-weight: 700!important;
+    margin-bottom: 0rem;
+    margin-top: 25px;
+}
+
+.topic {
+    font-size: 1.9rem;
+
+}
+
+/* .topic {
+    padding-top: 20px;
+    font-size: 1.8rem;
+    width: fit-content;
+    float: left;
+} */
+
+.icon-topic {
+
+    margin-right: 20px;
+    line-height: 75px !important;
+
+}
+
+.icon-topic2 {
+    line-height: 20px;
+
+    margin-right: 20px;
+
+}
+
+
+/* input {
+    type : hidden
+    textarea::placeholder {
+        color: transparent;
+   }
+}
+ */
+
+
+input[type="text"] {
+    display: none;
+}
+
+input[type="email"] {
+    display: none;
+}
+
+
+
+
+#button-location {
+    display:none
+} 
+
+#button-name {
+    display:none
+} 
+
+#button-email {
+    display:none
+} 
+
+
+
+
+
+.info div p {
+    margin-bottom: 0;
+}
+
+.cert {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.exp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.edu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.location  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} 
+
+.number  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.email  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.link  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+/* h2 {
+    font-size: 1.9rem;
+} */
